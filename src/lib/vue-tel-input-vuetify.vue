@@ -625,7 +625,7 @@ export default {
       } else if (
         this.inputOptions
         && this.inputOptions.showDialCode
-        && country
+        && country && country.dialCode
       ) {
         // Reset phone if the showDialCode is set
         this.phone = `+${country.dialCode}`;
