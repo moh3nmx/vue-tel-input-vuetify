@@ -28,7 +28,7 @@
         return-object
       >
         <template v-slot:selection>
-          <div :class="activeCountry.iso2.toLowerCase()" class="vti__flag" />
+          <div :class="activeCountry.iso2 && activeCountry.iso2.toLowerCase()" class="vti__flag" />
         </template>
         <template v-slot:item="data">
           <span :class="data.item.iso2.toLowerCase()" class="vti__flag" />
