@@ -11,6 +11,7 @@
         :items="sortedCountries"
         :disabled="disabled"
         :outlined="outlined"
+        :hide-details="hideDetails"
         :filled="filled"
         :flat="flat"
         :light="light"
